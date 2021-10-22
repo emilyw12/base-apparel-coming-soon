@@ -1,0 +1,122 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-size: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	min-height: 100vh;
+	background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.header {
+	padding: 1.75rem;
+	display: flex;
+	align-items: center;
+}
+
+.header__logo {
+	width: 35%;
+}
+
+.pg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.pg__hero {
+	width: 100%;
+}
+
+.pg__hero-image {
+	display: block;
+	min-height: 100%;
+	/*min-width: 100%;*/
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+.pg__heading {
+	text-transform: uppercase;
+	margin-top: 2rem;
+	letter-spacing: .75rem;
+	font-size: 2.75rem;
+}
+.pg__heading-highlight {
+	font-weight: 300;
+}
+
+.pg__description, .pg__heading-highlight {
+	color: hsl(0, 36%, 70%);
+}
+
+.pg__description {
+	line-height: 150%;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.pg__text-content {
+	padding: 1.75rem;
+	display: block;
+	height: 100%;
+	flex-grow: 1;
+
+}
+
+/*==========
+  EMAIL FORM
+=============*/
+
+.form {
+	width: 100%;
+	border: 1px solid hsl(0, 36%, 70%);
+	display: flex;
+	border-radius: 50px;
+	overflow: hidden;
+	height: 3rem;
+	z-index: -1;
+}
+
+.form__email {
+	flex-grow: 3;
+	border: none;
+	border-radius: inherit;
+}
+
+
+.form__email::placeholder {
+	color: hsl(0, 36%, 70%);
+	padding-left: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.form__submit {
+	flex-grow: 1;
+	background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	border: none;
+	border-radius: 50px;
+	box-shadow: 5px 15px 40px hsl(0, 36%, 75%);
+}
+
+.form__submit:hover {
+	background: linear-gradient(
+      135deg,
+      #f9dadb,
+      #f7c9c9);
+}

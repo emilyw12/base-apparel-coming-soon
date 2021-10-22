@@ -97,6 +97,7 @@ body {
 	flex-grow: 3;
 	border: none;
 	border-radius: inherit;
+	background-color: transparent;
 }
 
 

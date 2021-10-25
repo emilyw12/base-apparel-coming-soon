@@ -120,6 +120,7 @@ body {
 	flex-grow: 3;
 	border: none;
 	background-color: transparent;
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .form__email:focus {

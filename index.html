@@ -19,14 +19,12 @@
   </header>
 
   <main class="pg">
-    <section class="pg__hero">
-    </section>
 
-<!--       <picture class="pg__hero">
+      <picture class="pg__hero">
         <source media="(max-width:767px)" srcset="images/hero-mobile.jpg">
         <source media="(min-width:768px)" srcset="images/hero-desktop.jpg">
         <img src="images/hero-desktop.jpg" alt=""  class="pg__hero-image">
-      </picture> -->
+      </picture>
 
 
     <section class="pg__text-content">
@@ -35,14 +33,15 @@
       <p class="pg__description">Hello fellow shoppers! We're currently building our new fashion store. 
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-      <form class="pg__form form">
-        <input type="text" placeholder="Email Address" class="form__email">
+      <form class="pg__form form" novalidate>
+        <input type="email" placeholder="Email Address" class="form__email" required>
         <button type="submit" class="form__submit">
           <img src="images/icon-arrow.svg">
         </button>
       </form>
-
+      <div class="error-msg">Please provide a valid email</div>
     </section>
   </main>
+  <script src="validation.js"></script>
 </body>
 </html>

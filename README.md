@@ -13,8 +13,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -53,9 +51,7 @@ This was the first time I tried form validation with JavaScript, so I was learni
 
 ### Continued development
 
-I'm only just getting started with creating projects with JavaScript, so I'll continue to 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'm only just getting started with creating projects with JavaScript, so I'll continue to practice with beginning JavaScript concepts on other Frontend Mentor challenges.
 
 ### Useful resources
 

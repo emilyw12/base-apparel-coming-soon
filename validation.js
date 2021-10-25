@@ -2,10 +2,6 @@ const form = document.querySelector(".form");
 const errorMsg = document.querySelector(".error-msg");
 const email = document.querySelector(".form__email");
 
-console.log(email)
-console.log(errorMsg)
-console.log(form)
-
 form.addEventListener('submit', function (event) {
   // if the email field is valid, we let the form submit
 

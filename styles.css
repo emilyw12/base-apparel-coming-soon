@@ -64,15 +64,6 @@ body {
 	width: 100%;
 }
 
-/*.pg__hero {
-	width: 100%;
-	min-height: 15rem;
-	background: url("images/hero-mobile.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}*/
-
 .pg__heading {
 	text-transform: uppercase;
 	margin-top: 2rem;
@@ -112,7 +103,6 @@ body {
 	display: flex;
 	border-radius: 50px;
 	height: 3rem;
-	z-index: -1;
 	padding-left: 1rem;
 }
 
@@ -199,28 +189,13 @@ body {
 		letter-spacing: 1.5rem;
 	}
 
-	.pg__hero {
-		/*flex-grow: 1;*/
-		/*flex-basis: 0;*/
-		/*flex: 1 1 0;*/
-	}
-
 	.pg__hero-image {
 		min-height: 100vh;
 		object-fit: cover;
 	}
-/*
-	.pg__hero {
-		background: url("images/hero-desktop.jpg");
-		height: 100vh;
-		background-repeat: no-repeat;
-		background-size: cover;
-		flex-grow: 2;
-	}*/
 
 	.pg__text-content {
 		max-width: none;
-		/*flex: 1 1 0;*/
 		padding-right: 15%;
 	}
 
